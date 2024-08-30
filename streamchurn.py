@@ -12,6 +12,8 @@ from sklearn.feature_selection import RFE
 import numpy
 from sklearn.model_selection import GridSearchCV
 
+st.title('Bank Churn Prediction')
+st.write('From SAI SUNIL S, Batch-290')
 st.image('churn.png',output_format='JPEG')
 
 am = ['YES',"NO"]
