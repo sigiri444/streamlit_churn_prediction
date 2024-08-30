@@ -1,0 +1,13 @@
+prefix=H:/bank_churn_prediction/venvst/Library
+exec_prefix=H:/bank_churn_prediction/venvst/Library
+libdir=H:/bank_churn_prediction/venvst/Library/lib
+sharedlibdir=H:/bank_churn_prediction/venvst/Library/lib
+includedir=H:/bank_churn_prediction/venvst/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
