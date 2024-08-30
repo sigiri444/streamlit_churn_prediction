@@ -12,11 +12,12 @@ from sklearn.feature_selection import RFE
 import numpy
 from sklearn.model_selection import GridSearchCV
 
-am = ['YES',"NO"]
+st.image('churn.png',output_format='JPEG')
 
+am = ['YES',"NO"]
 model = pickle.load(open('model_churn.pkl','rb'))
 
-credit_score=st.number_input("Enter your Credit Score")
+credit_score=st.number_input("Enter your Credit Score",step=None)
 tenure=	st.number_input('Enter Tenure in months')
 balance=st.number_input('Please Enter current account balance')
 products_number=st.slider('Choose Nunber of products registered',0.0,5.0,0.0,step=1.0)
