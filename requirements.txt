@@ -40,12 +40,12 @@ prompt_toolkit==3.0.47
 protobuf==5.28.0
 psutil==6.0.0
 pure_eval==0.2.3
+Python==3.10.0
 pyarrow==17.0.0
 pydeck==0.9.1
 Pygments==2.18.0
 python-dateutil==2.9.0.post0
 pytz==2024.1
-pywin32==306
 pyzmq==26.2.0
 referencing==0.35.1
 requests==2.32.3
