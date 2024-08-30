@@ -13,7 +13,7 @@ import numpy
 from sklearn.model_selection import GridSearchCV
 
 am = ['YES',"NO"]
-
+#vhnsldvlnvlj
 model = pickle.load(open('model_churn.pkl','rb'))
 
 credit_score=st.number_input("Enter your Credit Score")
